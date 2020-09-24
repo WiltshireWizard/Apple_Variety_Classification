@@ -31,4 +31,6 @@ I was able to get the model to predict the apple variety with 75% accuracy after
 * **A second approach seeked to improve model performance using fastai to use the bottleneck features of a pre-trained network:**
     * This model was refined by optimizing the learning rate values used.
     * This model resulted in a 75% accuracy.
-    ![alt text](https://github.com/WiltshireWizard/Apple_Variety_Classification/blob/master/Confusion_Matrix.png)
+   
+   
+   ![alt text](https://github.com/WiltshireWizard/Apple_Variety_Classification/blob/master/Confusion_Matrix.png)
