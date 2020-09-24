@@ -16,7 +16,7 @@ I was able to get the model to predict the apple variety with 75% accuracy after
 * Image data was normalized by dividing by 255.
 
 ## Model Building and Performance
-* Train Test split used a test split of 33%
+* Train Test split used a test split of 33%.
 * **First approach used Keras to build my own model using a convulutional neural network:**
     * Model comprised of 5 layers. The first 3 layers were convulutional and last 2 were dense.
     * The Number of nodes in each sequential layer were: 16,32,64,128,5
@@ -25,7 +25,7 @@ I was able to get the model to predict the apple variety with 75% accuracy after
     * Overfitting was still an issue.
     * Data Augmenation and dropout layers were included to deal with overfitting and helped address this issue.
     * The resulting validation accuracy from these chnages was not as high at 61%
-* **A second approach seeked to improve model performance using fastai to use the bottleneck features of a pre-trained network:
+* **A second approach seeked to improve model performance using fastai to use the bottleneck features of a pre-trained network:**
     * This model was refined by optimizing the learning rate values used.
     * This model resulted in a 75% accuracy.
-    
+    ![alt text](https://github.com/WiltshireWizard/Apple_Variety_Classification/blob/master/Confusion_matrix.png)
