@@ -32,5 +32,4 @@ I was able to get the model to predict the apple variety with 75% accuracy after
     * This model was refined by optimizing the learning rate values used.
     * This model resulted in a 75% accuracy.
    
-   
-   ![alt text](https://github.com/WiltshireWizard/Apple_Variety_Classification/blob/master/Confusion_Matrix.png)
+
