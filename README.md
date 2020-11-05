@@ -23,12 +23,11 @@ I was able to get the model to predict the apple variety with 75% accuracy after
 * **First approach used Keras to build my own model using a convolutional neural network:**
     * Model comprised of 5 layers. The first 3 layers were convolutional and last 2 were dense.
     * The Number of nodes in each sequential layer were: 16,32,64,128,5
-    * After training for 25 epochs the validation accuracy was 65% but there was clear evidence of overtraining.
     * An early stop was added to the model to prevent overtraining.
-    * Overfitting was still an issue.
-    * Data Augmenation and dropout layers were included to deal with overfitting and helped address this issue.
-    * The resulting validation accuracy from these chnages was not as high at 61%
-* **A second approach seeked to improve model performance using fastai to use the bottleneck features of a pre-trained network:**
+    * Model Checkpoint was used to save the best permorming model.
+    * Data Augmenation and dropout layers were included to deal with overfitting.
+    * The resulting validation accuracy from the model was 71%
+* **A second approach seeked to improve model performance using fastai to bottleneck the features of a pre-trained network:**
     * This model was refined by optimizing the learning rate values used.
     * This model resulted in a 75% accuracy.
    
