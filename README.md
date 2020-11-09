@@ -8,7 +8,7 @@ A key part of the business model was customer satisfaction as it relied on repea
 
 I was able to get the model to predict the apple variety with 75% accuracy after minimal tuning. This is significantly outperforms most peoples ability to identify apple varieties. The results are promising given the very small data set used. To get these results I used transfer learning on a CNN trained on resnet34. This created time efficiencies and solid results. An expansion in number of apple varieties classified would be needed to create a model suitable for the app discussed. However this project indicates that with a much larger dataset and some more model tuning then a genuinely useful model could be achieved.
 
-![alt text](https://github.com/WiltshireWizard/Apple_Variety_Classification/blob/master/Apple Confusion.png)
+![alt text](https://github.com/WiltshireWizard/Apple_Variety_Classification/blob/master/Apple_Confusion.png)
 
 
 ## Data 
@@ -29,6 +29,6 @@ I was able to get the model to predict the apple variety with 75% accuracy after
     * The resulting validation accuracy from the model was 71%
 * **A second approach seeked to improve model performance using fastai to bottleneck the features of a pre-trained network:**
     * This model was refined by optimizing the learning rate values used.
-    * This model resulted in a 75% accuracy.
+    * This model resulted in a 77% accuracy.
    
 
